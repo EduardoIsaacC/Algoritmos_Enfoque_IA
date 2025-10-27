@@ -56,6 +56,6 @@ def hill_climbing(f, pasos=1000, delta=0.01):
 # BLOQUE PRINCIPAL
 
 if __name__ == "__main__":
-    print("\n=== BÚSQUEDA DE ASCENSIÓN DE COLINAS ===\n")
+    print("\n BÚSQUEDA DE ASCENSIÓN DE COLINAS \n")
     mejor_x, mejor_valor = hill_climbing(funcion, pasos=200)
-    print(f"\n📈 Mejor solución encontrada: x={mejor_x:.4f}, f(x)={mejor_valor:.4f}")
+    print(f"\n Mejor solución encontrada: x={mejor_x:.4f}, f(x)={mejor_valor:.4f}")

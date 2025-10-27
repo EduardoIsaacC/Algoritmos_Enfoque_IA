@@ -69,7 +69,7 @@ def temple_simulado(f, x_inicial=5, T_inicial=100, T_final=0.01, alfa=0.95, paso
 # BLOQUE PRINCIPAL
 
 if __name__ == "__main__":
-    print("\n=== BÚSQUEDA DE TEMPLE SIMULADO ===\n")
+    print("\n BÚSQUEDA DE TEMPLE SIMULADO \n")
 
     mejor_x, mejor_costo = temple_simulado(
         funcion_objetivo,
