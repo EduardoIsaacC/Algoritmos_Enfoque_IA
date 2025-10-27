@@ -36,7 +36,7 @@ def costo_uniforme(grafo, inicio, objetivo):
 
     return None, float('inf')
 
-# --- Ejemplo de uso ---
+# Ejemplo de uso 
 camino, costo = costo_uniforme(grafo, 'A', 'G')
 
 print("\nCamino más barato:", camino)
