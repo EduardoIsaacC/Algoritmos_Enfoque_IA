@@ -77,7 +77,7 @@ def backtracking_fc(asignacion, dominios):
                     return resultado
 
             # Si falla, retrocede
-            print(f"🔙 Retrocediendo en {var}")
+            print(f" Retrocediendo en {var}")
             del asignacion[var]
 
     return None

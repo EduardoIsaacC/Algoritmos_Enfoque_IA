@@ -32,7 +32,7 @@ def busqueda_bidireccional(grafo, inicio, meta):
             if vecino in visitados_meta:
                 return construir_camino(padres_inicio, padres_meta, vecino)
 
-        # --- Expansión hacia atrás ---
+        #  Expansión hacia atrás 
         ruta = cola_meta.popleft()
         nodo = ruta[-1]
         for vecino in grafo.get(nodo, []):

@@ -53,7 +53,7 @@ def busqueda_online(mapa, inicio, meta, max_pasos=100):
 
         # Si llegamos a la meta → fin
         if actual == meta:
-            print(f"✅ Meta alcanzada en {paso} pasos!")
+            print(f" Meta alcanzada en {paso} pasos!")
             return
 
         # Generar vecinos válidos (no salir del mapa ni cruzar muros)
@@ -65,7 +65,7 @@ def busqueda_online(mapa, inicio, meta, max_pasos=100):
                 vecinos.append((nx, ny))
 
         if not vecinos:
-            print("🚧 Sin movimientos posibles, atascado.")
+            print(" Sin movimientos posibles, atascado.")
             return
 
         # Estimar heurísticas para vecinos (o inicializar)
@@ -89,7 +89,7 @@ def busqueda_online(mapa, inicio, meta, max_pasos=100):
 # BLOQUE PRINCIPAL
 
 if __name__ == "__main__":
-    print("\n=== BÚSQUEDA ONLINE (LRTA*) ===\n")
+    print("\n BÚSQUEDA ONLINE (LRTA*) \n")
 
     ancho, alto = 8, 6
     mapa = crear_mapa(ancho, alto, obstaculos=0.2)
